@@ -267,7 +267,17 @@ class _MyHomePageState extends State<MyHomePage> {
                   child: Icon(Icons.refresh),
                   onPressed: () async {
                     //webViewController?.reload();
-                    var screenshot = await webViewController?.takeScreenshot();
+
+                    var screenshot = await webViewController?.takeScreenshot(
+                        /*screenshotConfiguration: ScreenshotConfiguration(
+                        rect: InAppWebViewRect(
+                          x: 0,
+                          y: 1000,
+                          height: 100,
+                          width: 100,
+                        ),
+                      ),*/
+                        );
                     if (screenshot != null) {
                       showDialog(
                         context: context,

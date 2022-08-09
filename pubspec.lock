@@ -67,7 +67,7 @@ packages:
     description:
       path: "."
       ref: HEAD
-      resolved-ref: "4cf91c43b6da435e86af1b12e4a21ca687a95600"
+      resolved-ref: "229be05d68bd271a06badff52fb96d3dc2d139d8"
       url: "https://github.com/koosoftware/flutter_inappwebview"
     source: git
     version: "5.4.3+7"
